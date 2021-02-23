@@ -1,0 +1,5 @@
+npm i canvas && npm i sqlite3 && npm i array-sort && npm i axios && npm i canvas-constructor && npm i common-tags && npm i cookie && npm i discord-economy && npm i discord-money && npm i discord.js && npm i enmap && npm i express && npm i firebase && npm i fs && npm i gif-encoder && npm i hastebin-gen && npm i jimp && npm i jsdom && npm i moment && npm i moment-duration-format && npm i ms && npm i node-gyp && npm i node-superfetch && npm i os && npm i parse-ms && npm i pixel-util && npm i randomstring && npm i snekfetch && npm i socket.io && npm i superagent && npm i table && npm i @angular/cli && npm i consulta-assertiva && npm i ws && npm i http && npm i dotenv && npm i request && npm i ffmpeg && npm i ffmpeg-binaries && npm i simple-youtube-api && npm i ytdl-core && npm i youtube-info && npm i get-youtube-id && npm i twemoji
+
+npm install --unsafe-perm
+npm -g --unsafe-perm install node-sass
+npm install --build-from-resource

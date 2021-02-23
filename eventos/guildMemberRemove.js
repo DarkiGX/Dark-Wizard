@@ -1,0 +1,32 @@
+module.exports = (client, member) => {
+  const firebase = require("firebase");
+  const database = firebase.database();
+
+  let servidor = member.guild.id;
+  let membro = member.id;
+  database.ref(`Servidores/TempoEconomia/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Armas/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Ban/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Caça/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Pesca/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Casamento/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Criminal/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Cooldown/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/LojaArmas/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Profissão/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Prisão/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Vip/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Humor/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Jogos/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Jogos2/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Mascote/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Loja Mascote/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/MascoteTemp/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Perfil2/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Perfil/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Banco/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/UltimaMensagem/${servidor}/${membro}`).remove();
+  database.ref(`Servidores/Call/${servidor}/${membro}`).remove();
+  database.ref(`Gangue/${servidor}/${membro}`).remove();
+  database.ref(`AFK/${servidor}/${membro}`).remove();
+};
