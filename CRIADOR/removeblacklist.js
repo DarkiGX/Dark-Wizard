@@ -53,7 +53,7 @@ module.exports = {
     message.channel.send({
       embed: {
         color: 3447003,
-        description: `✅ | O usuário ${user} foi removido da BlackList Global`
+        description: `✅ | O usuário ${user} foi removido da BlackList Global. Liberdade cantou! 😎`
       }
     });
 

@@ -149,7 +149,7 @@ module.exports = {
         title: "Transferência Bancária",
         description:
           `💵 | ${message.author} fez uma transferência de **${require("currency-formatter").format(din, { code: "de-DE", symbol: "R$ ", precision: 0})}** ` +
-          "(`com imposto de " +
+          "(`com uma taxa de " +
           `${require("currency-formatter").format(teste, { code: "de-DE", symbol: "R$ ", precision: 0})}` +
           "`)" +
           ` para ${user} que recebeu **${require("currency-formatter").format(qtd, { code: "de-DE", symbol: "R$ ", precision: 0})}**`,

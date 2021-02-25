@@ -54,7 +54,8 @@ module.exports = {
       "Pensar Demais",
       "Jogar BlackJack",
       "Masturbação Anal",
-      "Rinha de Anãos"
+      "Rinha de Anãos",
+      "Dar o WOW"
     ];
     const genres = [
       "Maconha",

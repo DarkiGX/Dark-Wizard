@@ -118,7 +118,7 @@ module.exports = {
     }
 
     if (Munição < 1)
-      return message.channel.send("❌ | Você não possuí Bala o Suficiente, use `" + prefixo + "loja Utilidades para comprar.");
+      return message.channel.send("❌ | Você não possuí Bala o Suficiente, use `" + prefixo + "loja Utilidades` para comprar.");
 
     var Vara;
     if (!body) {

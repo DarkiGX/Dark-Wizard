@@ -102,7 +102,7 @@ module.exports = {
         color: 3447003,
         title: "Lotes de Plantação",
         description:
-          "➡ | Após jogar uma semente em suas terras, aguarde o tempo certo para Colher, fique de olho para não estragar. \n\n" +
+          "➡ | Após jogar uma semente em suas terras, aguarde o tempo certo para Colher, fique de olho. \n\n" +
           `${
             LOTE1
               ? `Status Lote 1 - ` +

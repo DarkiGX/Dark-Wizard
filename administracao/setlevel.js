@@ -43,7 +43,7 @@ module.exports = {
         title: message.author.tag,
         description:
           emoji.positivo +
-          ` | O usuário ${user} teve o seu level removido com sucesso`
+          ` | O usuário ${user} teve o seu level removido com sucesso!`
       }
     });
   }

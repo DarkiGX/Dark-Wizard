@@ -20,6 +20,7 @@ module.exports = {
     )
       return message.channel.send({
         embed: {
+          color: 3447003,
           description:
             emoji.negativo + ` | Apenas <@${owner}> tem essa permissão!`
         }
@@ -76,14 +77,14 @@ module.exports = {
                   title: message.author.tag,
                   description:
                     emoji.positivo +
-                    " A database desse servidor foi deletada com sucesso"
+                    " A database desse servidor foi deletada com sucesso!"
                 }
               });
             }
 
             if (m.content.toLowerCase() === "não") {
               message.channel.send(
-                emoji.negativo + " | O comando foi recusado"
+                emoji.negativo + " | O comando foi cancelado."
               );
             }
             setdatabase.add(m.author.id);

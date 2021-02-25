@@ -110,7 +110,7 @@ module.exports = {
                 embed: {
                   color: 3447003,
                   timestamp: new Date(),
-                  title: "🔞 | GF, tirem as crianças do chat!",
+                  title: "🔞 | GF, tirem as crianças do chat!!",
                   description:
                     random_prostituir[
                       Math.floor(Math.random() * random_prostituir.length)

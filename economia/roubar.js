@@ -128,7 +128,7 @@ module.exports = {
         emoji.negativo +
           " | " +
           message.author +
-          " você não pode roubar o meu criador, um mago protege seu mestre 🧙‍♂️"
+          " você não pode roubar o meu criador otário, um mago protege seu mestre 🧙‍♂️"
       );
 
     var { body } = await snekfetch.get(

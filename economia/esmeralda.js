@@ -45,7 +45,7 @@ module.exports = {
           description:
             "⏰ | Aguarde **" +
             `${time.hours}h ${time.minutes}m ${time.seconds}s` +
-            " ** para coletar suas esmeraldas novamente"
+            " ** para coletar suas esmeraldas diárias novamente"
         }
       });
 

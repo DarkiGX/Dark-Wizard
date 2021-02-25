@@ -29,7 +29,7 @@ module.exports = {
             timestamp: new Date(),
             title: "Modo de Uso",
             description:
-              prefixo + "sacar `quantidade` | " + prefixo + "sacarall"
+              prefixo + "sacar `quantidade`  ou `" + prefixo + "sacarall`"
           }
         })
         .then(m => m.delete(10 * 1000), message.delete(10 * 1000));

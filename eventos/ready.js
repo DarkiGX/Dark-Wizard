@@ -66,7 +66,7 @@ module.exports = client => {
     });
 
   /*
-   * STATUS DO BOT
+   * STATUS DO BOT.
    */
 
   setInterval(async function() {

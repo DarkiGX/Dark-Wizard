@@ -9,7 +9,7 @@ const e = {
 
 module.exports = {
   name: "divorciar",
-  aliases: ["divorciar", "divorce", "divorcio"],
+  aliases: ["divorciar", "divorce", "divorcio", "separar"],
   async execute(client, message, args, database, mdk) {
     let user;
     if (message.mentions.users.first()) {

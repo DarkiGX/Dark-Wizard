@@ -162,7 +162,7 @@ module.exports = {
           let s = new Discord.RichEmbed()
             .setTitle(client.user.username + ` BlackJack`)
             .setDescription(
-              "**Como Funciona ?** O objetivo é chegar o mais próximo de **21** pontos, caso ultrapasse ou se Diana bater primeiro você irá perder!\n\nDigite: `comprar` para comprar outra carta ou `parar` para passar.\n\nValendo: **" +
+              "**Como Funciona ?** O objetivo é chegar o mais próximo de **21** pontos, caso ultrapasse ou se o bot bater primeiro você irá perder!\n\nDigite: `comprar` para comprar outra carta ou `parar` para passar.\n\nValendo: **" +
                 require("currency-formatter").format(quantidade, { code: "de-DE", symbol: "R$ ", precision: 0}) +
                 "**"
             )

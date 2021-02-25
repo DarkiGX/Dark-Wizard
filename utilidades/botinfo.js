@@ -120,7 +120,7 @@ module.exports = {
             },
             {
               value: "**" + client.shard.count + "**",
-              name: "🧪 | Shards:",
+              name: "🧪 | Shards total:",
               inline: true
             },
           ]

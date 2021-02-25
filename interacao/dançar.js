@@ -28,7 +28,8 @@ module.exports = {
       "http://www.gifs.eco.br/wp-content/uploads/fotos/gif-legal-criancinhas-dancando-70150878.gif",
       "https://i.correiobraziliense.com.br/a2smn4ZqcKiiqwiu4OituIt4neo=/675x/smart/imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2015/03/06/474309/20150306141719118399u.gif",
       "https://2.bp.blogspot.com/--WUoN4AIHnA/WdAQHKKVKgI/AAAAAAAAO3E/CGixIH6Fqx0H54kMFp-ftp4FkpGZospVQCLcBGAs/s640/010.gif",
-      "https://68.media.tumblr.com/9d74ed4a08671174731978ff03b25e09/tumblr_nwt0lzQ4nT1uk5m23o2_500.gif"
+      "https://68.media.tumblr.com/9d74ed4a08671174731978ff03b25e09/tumblr_nwt0lzQ4nT1uk5m23o2_500.gif",
+      "https://tenor.com/view/fresh-prince-of-bel-air-dancing-happy-will-smith-gif-3532220"
     ];
 
     message.channel.send({

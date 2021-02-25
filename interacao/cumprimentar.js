@@ -30,7 +30,8 @@ module.exports = {
       "https://whatstube.com.br/wp-content/uploads/2016/10/quando-tento-fazer-tudo-ao-mesmo-tempo.gif",
       "http://www.naomesmo.com/wp-content/uploads/2012/06/gifs_20.gif",
       "https://img.buzzfeed.com/buzzfeed-static/static/2018-02/15/13/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-20432-1518720953-16.gif?crop=374:198;74,0",
-      "https://poderosasa.files.wordpress.com/2017/08/giphy.gif?w=371"
+      "https://poderosasa.files.wordpress.com/2017/08/giphy.gif?w=371",
+      "https://media.tenor.co/videos/8a450b7d13ef08e54b52e1a0b397a31b/mp4"
     ];
 
     message.channel.send({

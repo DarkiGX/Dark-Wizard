@@ -94,7 +94,7 @@ module.exports = {
         description: `💵 | Você depositou **${require("currency-formatter").format(
           din,
           { code: "de-DE", symbol: "R$ ", precision: 0 }
-        )}** do seu Banco com sucesso`,
+        )}** no seu Banco com sucesso`,
         footer: {
           icon_url: message.author.avatarURL,
           text: message.author.tag

@@ -1,6 +1,6 @@
 module.exports = {
   name: "menu",
-  aliases: ["menu", "ajuda", "help"],
+  aliases: ["menu", "ajuda", "help", "comandos"],
   async execute(client, message, args, database, mdk) {
     require("fs").readdir("./administracao/", (err, administracao) => {
       require("fs").readdir("./economia/", (err, economia) => {

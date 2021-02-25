@@ -7,7 +7,7 @@ module.exports = {
   async execute(client, message, args, database) {
     if (!message.member.hasPermission("ADMINISTRATOR", false, true, true)) {
       message.channel.send(
-        ":x: | Você não tem permissão `ADMINISTRATOR` para executar este comando"
+        ":x: | Você precisa da permissão de `ADMINISTRATOR` para executar este comando"
       );
       return 0;
     }

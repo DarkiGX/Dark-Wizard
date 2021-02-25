@@ -90,7 +90,7 @@ module.exports = {
 
               if (m.content.toLowerCase() === "não") {
                 message.channel
-                  .send("❌ | O comando foi recusado")
+                  .send("❌ | O comando foi cancelado")
                   .then(m => m.delete(5000));
               }
 

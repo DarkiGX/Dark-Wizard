@@ -152,7 +152,7 @@ module.exports = {
                 embed: {
                   description:
                     e.aviso +
-                    ` | ${message.author}, você já está casado(a) com <@${CAsado}>`
+                    ` | ${message.author}, você já está casado(a) com <@${CAsado}>, que se tornou corno(a) nesse momento`
                 }
               });
             //

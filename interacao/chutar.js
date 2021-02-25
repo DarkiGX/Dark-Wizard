@@ -27,7 +27,7 @@ module.exports = {
       "http://66.media.tumblr.com/tumblr_lmg4tfseuq1qhzyzho1_500.gif",
       "http://3.bp.blogspot.com/-z85BVK1l4f8/Ug5jh9uakMI/AAAAAAAABSA/1TH0m9KqT8M/s1600/vaca-chutando-cara.gif",
       "https://media1.tenor.com/images/bdb051282c5702a26e7db24f83e753f9/tenor.gif",
-      "https://abrilsuperinteressante.files.wordpress.com/2018/07/chutenosaco.gif"
+      "https://tenor.com/view/fucked-bam-jackass-flying-kick-kick-gif-15175869"
     ];
 
     message.channel.send({

@@ -15,7 +15,7 @@ module.exports = {
 
     if (member.id === message.author.id)
       return message.channel
-        .send(emoji.negativo + " | Você não pode matar a si mesmo")
+        .send(emoji.negativo + " | Você não pode matar a si mesmo, seu suicida")
         .then(m => m.delete(10000), message.delete(10000));
 
     const rando_imgs = [

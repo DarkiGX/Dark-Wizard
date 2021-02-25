@@ -13,6 +13,7 @@ module.exports = {
     if (!Game)
       return message.channel.send({
         embed: {
+          color: 3447003,
           description: "🔔 | Você deve inserir uma mensagem para o meu Status"
         }
       });

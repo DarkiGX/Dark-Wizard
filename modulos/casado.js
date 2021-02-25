@@ -57,7 +57,7 @@ module.exports = {
           casado
             ? `${e.anel} | **Casado(a) com:** ${Casado.tag}\n**${
                 e.data
-              } | Data:** ${dataCasamento} há **${
+              } | Data:** ${dataCasamento} Por **${
                 casado
                   ? "**" +
                     `${e.tempo} | ${time.days}d ${time.hours}h ${time.minutes}m ${time.seconds}s**`

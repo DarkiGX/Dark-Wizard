@@ -25,6 +25,8 @@ module.exports = {
     if (body === "undefined") body = 0;
     var imagemperfil = body.imagemperfil;
     var sobremim = body.sobremim;
+    var prefix = body.prefixo;
+    let prefixo = `${prefix ? prefix : "d!"}`;
 
     var { body } = await snekfetch.get(
       db +
@@ -172,7 +174,7 @@ module.exports = {
           url: "attachment://profile.png"
         },
       footer: {
-        text: "Dica: Use " + prefixo + "imgperfil ou " + prefixo + "sobremim para personalizar seu perfil"
+        text: "Dica: Use " + prefixo + "imgperfil ou " + prefixo + "sobremim para personalizar o seu perfil"
       }
     }})
   }

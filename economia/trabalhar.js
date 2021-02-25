@@ -69,9 +69,9 @@ module.exports = {
 
     if (trabalho === 0)
       return message.channel.send(
-        "🔔 | Você não possui nenhum emprego, digite: **" +
+        "🔔 | Você não possui nenhum emprego, digite: `" +
           prefixo +
-          "empregos** e entre em algum"
+          "empregos` e entre em algum"
       );
 
     let profissão = trabalho;

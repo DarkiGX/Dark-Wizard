@@ -94,7 +94,7 @@ module.exports = {
         title: "Adicionando Dinheiro",
         description:
           emoji.dinheiro +
-          ` | O usuário ${user} recebeu **R$ ${quantidade}** no Banco`
+          ` | O usuário ${user} recebeu **R$ ${quantidade}** no Banco.`
       }
     });
   }

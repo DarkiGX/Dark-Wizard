@@ -47,7 +47,7 @@ module.exports = {
           .catch(err => {
             message.channel.send(
               client.user +
-                " é um Bot de RPG focado 100% em Econômia\nE está em **" +
+                " é um Bot de RPG, jogos, intereção focado em Econômia\nE está em **" +
                 require("currency-formatter").format(totalservidores, {
                   code: "de-DE",
                   precision: 0

@@ -109,7 +109,7 @@ module.exports = async (client, message) => {
           emoji.relogio +
           " | " +
           message.author +
-          " Aguarde **" +
+          " Caaaalma ae, seus dedos estão enfeitiçados? Aguarde **" +
           tempslow +
           "s** para usar outro comando novamente"
       )

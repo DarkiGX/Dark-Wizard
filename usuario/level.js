@@ -95,7 +95,7 @@ module.exports = {
                         precision: 0
                       }) +
                       "\n" +
-                      `🥇 | **Posição no Rank:** #️⃣${msgArr
+                      `🥇 | **Posição no Rank: #️⃣${msgArr
                         .join(" ")
                         .split("")
                         .map(c => mapping[c] || c)

@@ -40,7 +40,8 @@ module.exports = {
       "https://78.media.tumblr.com/94f62f2fbca608f70a48e6c04c2dc27c/tumblr_orotkrEC4t1vbbkedo2_540.gif",
       "http://i0.kym-cdn.com/photos/images/original/001/266/481/075.gif",
       "https://data.whicdn.com/images/310192271/original.gif",
-      "https://78.media.tumblr.com/064596e2fb0101675b89d79ac41141e0/tumblr_p8g2jmxCLD1qc9mvbo1_540.gif"
+      "https://78.media.tumblr.com/064596e2fb0101675b89d79ac41141e0/tumblr_p8g2jmxCLD1qc9mvbo1_540.gif",
+      "https://tenor.com/view/running-hug-embrace-i-miss-you-good-to-see-you-again-gif-15965620"
     ];
     /*
         database

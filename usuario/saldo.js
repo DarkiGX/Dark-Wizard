@@ -76,7 +76,7 @@ module.exports = {
             message.channel.send({
               embed: {
                 color: 3447003,
-                title: "🧙‍♂️ | " + membro.tag,
+                title: "🧙‍♂️ | Saldo de " + membro.tag,
                 description: `💵 | **Carteira:** ${
                   body
                     ? require("currency-formatter").format(dinheiro, {

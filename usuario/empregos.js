@@ -504,9 +504,9 @@ module.exports = {
                       description:
                         "💼  | Você aderiu a profissão de **" +
                         Emprego +
-                        "**, Digite: **" +
+                        "**, Digite: `" +
                         prefixo +
-                        "trabahar** para ganhar seu salário"
+                        "trabahar` para ganhar seu salário."
                     }
                   });
                 });

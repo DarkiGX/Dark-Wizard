@@ -15,7 +15,7 @@ module.exports = {
 
     if (member.id === message.author.id)
       return message.channel
-        .send(emoji.negativo + " | Você não pode fuzilar a si mesmo")
+        .send(emoji.negativo + " | Você não pode fuzilar a si mesmo, seu suicida")
         .then(m => m.delete(10000), message.delete(10000));
 
     const rando_imgs = [
@@ -28,7 +28,8 @@ module.exports = {
       "https://static.comicvine.com/uploads/original/11113/111131285/5386878-8684255043-giphy.gif",
       "https://lh3.googleusercontent.com/-E-p77lV-3As/WTGFtfwVo7I/AAAAAAAAmu0/k4OHBiwY8ngtt18lJLIL8U6AQ5GbWK13gCJoC/w530-h307-n-rw/r8vZpIm.gif",
       "https://mundomachocom.files.wordpress.com/2018/11/gif.gif?w=371&h=202",
-      "https://thumbs.gfycat.com/CorruptIncompleteJay-max-1mb.gif"
+      "https://thumbs.gfycat.com/CorruptIncompleteJay-max-1mb.gif",
+      "https://tenor.com/view/shoot-gift-gif-13384546"
     ];
 
     message.channel.send({

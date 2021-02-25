@@ -367,7 +367,7 @@ module.exports = {
                 }
 
                 if (lote3 > 0)
-                  return message.channel.send("Você já adquiriu este lote");
+                  return message.channel.send("Você já adquiriu este lote... Acho que você que tá usando essa maconha.");
 
                 var adubo;
                 if (!body) {

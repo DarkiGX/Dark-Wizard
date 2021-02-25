@@ -100,7 +100,7 @@ module.exports = {
                 const filter = m =>
                   m.content.toLowerCase() === "sim" && m.author.id === user.id;
                 const collector = msg.channel.createMessageCollector(filter, {
-                  time: TempoCollector * 1000
+                  time: TempoCollector * 3000
                 });
                 teste = false;
                 collector.on("collect", m => {

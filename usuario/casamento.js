@@ -28,7 +28,7 @@ module.exports = {
         },
         fields: [
           {
-            value: "👩‍❤️‍👨 | Para fazer o seu casamento",
+            value: "👩‍❤️‍👨 | Para se casar",
             name: "**" + prefixo + "casar**"
           },
           {

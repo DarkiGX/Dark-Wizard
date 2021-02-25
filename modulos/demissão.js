@@ -132,7 +132,7 @@ module.exports = {
             }
 
             if (m.content.toLowerCase() === "não") {
-              message.channel.send("❌ | O Comando foi cancelado");
+              message.channel.send("❌ | O Comando foi cancelado com sucesso!");
             }
 
             demissão.add(m.author.id);

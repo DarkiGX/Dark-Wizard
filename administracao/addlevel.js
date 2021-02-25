@@ -7,7 +7,7 @@ const config = require("../config.json");
 
 module.exports = {
   name: "addlevel",
-  aliases: ["addlevel"],
+  aliases: ["addlevel", "addnivel"],
   async execute(client, message, args, database, mdk) {
     message.delete();
 
@@ -20,6 +20,7 @@ module.exports = {
     )
       return message.channel.send({
         embed: {
+          color: 3447003,
           description:
             emoji.negativo + ` | Apenas <@${owner}> tem essa permissão!`
         }
@@ -92,7 +93,7 @@ module.exports = {
       embed: {
         color: 3447003,
         title: "Adicionando Level",
-        description: `O usuário ${user} recebeu **${quantidade}** de level`
+        description: `O usuário ${user} recebeu **${quantidade}** de level.`
       }
     });
   }

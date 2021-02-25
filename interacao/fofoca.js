@@ -8,7 +8,8 @@ module.exports = {
       `O usuário \`${user.tag}\` foi visto usando couple com o(a) \`${user2.tag}\``,
       `O usuário \`${user.tag}\` foi visto usando conta fake pra farmar dinheiro junto com o(a) \`${user2.tag}\``
       `O usuário \`${user.tag}\` foi flagado(a) fazendo voz de Loli para ganhar nitro do(a) \`${user2.tag}\``,
-      `O usuário \`${user.tag}\` foi flagado(a) gemendo para o(a) \`${user2.tag}\` pra ganhar carguinho no servidor`
+      `O usuário \`${user.tag}\` foi flagado(a) gemendo para o(a) \`${user2.tag}\` pra ganhar carguinho no servidor`,
+      `O usuário \`${user.tag}\` foi flagado(a) scammando o(a) \`${user2.tag}\`, pegou o dinheiro e saiu correndo`
     ];
 
     let img = [

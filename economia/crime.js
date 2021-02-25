@@ -40,7 +40,7 @@ module.exports = {
           color: 3447003,
           title: message.author.tag,
           description:
-            "❌ | Você não pode entrar para o crime pois tem Cargo Alto no **GOVERNO**"
+            "❌ | Você não pode entrar para o crime pois tem Cargo Alto no **GOVERNO**, seu corrupto."
         }
       });
 

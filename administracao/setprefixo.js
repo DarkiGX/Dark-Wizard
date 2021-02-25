@@ -16,7 +16,7 @@ module.exports = {
     ) {
       message.channel.send(
         emoji.negativo +
-          " | Você não tem permissão de `Administrador` para executar este comando"
+          " | Você precisa da permissão de `Administrador` para executar este comando"
       );
       return 0;
     }

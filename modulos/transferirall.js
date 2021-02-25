@@ -1,6 +1,6 @@
 module.exports = {
   name: "transferirall",
-  aliases: ["transferirall", "transferall", "tranferir all"],
+  aliases: ["transferirall", "transferall"],
   async execute(client, message, args, database) {
     let user;
     if (message.mentions.users.first()) {

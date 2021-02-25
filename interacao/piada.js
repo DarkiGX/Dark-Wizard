@@ -310,7 +310,7 @@ module.exports = {
     message.channel.send({
       embed: {
         color: 3447003,
-        title: "Piada",
+        title: "Humor e Piadas",
         description: `**${piadas[piada]}**`
       }
     });

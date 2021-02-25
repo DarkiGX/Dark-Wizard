@@ -1,6 +1,6 @@
 module.exports = {
   name: "depositarall",
-  aliases: ["depositarall", "depositall"],
+  aliases: ["depositarall", "depositall", "depall"],
   async execute(client, message, args, database) {
     let user;
     if (message.mentions.users.first()) {

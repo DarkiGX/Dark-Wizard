@@ -230,7 +230,7 @@ module.exports = {
                     embed: {
                       color: 3447003,
                       timestamp: new Date(),
-                      title: "Rank de Esmeraldas Top " + ranktop,
+                      title: "Rank de Esmeraldas Top Global " + ranktop,
                       description: msg3,
 
                       footer: {

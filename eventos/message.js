@@ -103,7 +103,7 @@ if (atfk < 15) return;
               emoji.negativo +
               " | " +
               message.author +
-              " A magia dos meus comandos estão bloqueados neste canal :pensive:"
+              " A magia dos meus comandos estão bloqueados neste canal :pensive:. Use o canal de comandos!"
         }`
       );
   }

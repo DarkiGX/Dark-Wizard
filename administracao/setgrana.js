@@ -45,7 +45,7 @@ module.exports = {
         title: message.author.tag,
         description:
           emoji.positivo +
-          ` | O usuário ${user} teve o seu dinheiro removido com sucesso`
+          ` | O usuário ${user} teve o seu dinheiro removido com sucesso!`
       }
     });
   }

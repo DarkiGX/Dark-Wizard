@@ -25,7 +25,7 @@ module.exports = {
         args[1] +
         "** da categoria **" +
         args[0] +
-        "** foi reiniciado"
+        "** foi reiniciado com sucesso! Boa dark 😎"
     );
     message.client.commands.delete(arquivo);
     const pull = require(`../${caminho}/${arquivo}.js`);

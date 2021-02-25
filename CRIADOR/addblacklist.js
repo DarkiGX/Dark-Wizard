@@ -24,7 +24,7 @@ module.exports = {
 
     let tempo = Number(args[1]);
     const razão = args.slice(2).join(" ");
-    if (!args[2]) return message.channe.send("vc esqueceu do motivo");
+    if (!args[2]) return message.channe.send("você esqueceu do motivo");
     if (razão.length > 30) {
       message.channel.send("🔔 | O motivo não deve ter mais que 30 caracteres");
       return 0;

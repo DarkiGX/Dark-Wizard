@@ -145,8 +145,8 @@ module.exports = {
 
     const pez = peixes[Math.floor(Math.random() * (peixes.length - 1) + 1)];
     let valor;
-    if (pez === "🦈") valor = 250;
-    if (pez === "🐳") valor = 125;
+    if (pez === "🐳") valor = 250;
+    if (pez === "🦈") valor = 125;
     if (pez === "🐡") valor = 65;
     if (pez === "🐠") valor = 25;
     if (pez === "🐟") valor = 10;

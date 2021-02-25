@@ -90,7 +90,6 @@ module.exports = {
         await msg.react(e.um);
         await msg.react(e.dois);
         await msg.react(e.tres);
-        await msg.react(e.todas);
         await msg.react(e.negativo);
 
         var emoji;

@@ -134,7 +134,7 @@ module.exports = {
           `${Camarao ? "🦐 | Camarão: `" +  require("currency-formatter").format(Camarao, { code: "de-DE", precision: 0}) + "` \n" : ""}` +
           `${Carne ? "🍗 | Carne: `" +  require("currency-formatter").format(Carne, { code: "de-DE", precision: 0}) + "KG` \n" : ""}` +
           `${Peixe ? "🐟 | Peixe: `" +  require("currency-formatter").format(Peixe, { code: "de-DE", precision: 0}) + "KG` \n" : ""}` +
-          `${semente ? "🥜 | Semente: `" +  require("currency-formatter").format(semente, { code: "de-DE", precision: 0}) + "`\n" : ""}` +
+          `${semente ? "🥜 | Sementes: `" +  require("currency-formatter").format(semente, { code: "de-DE", precision: 0}) + "`\n" : ""}` +
           `${maconha ? "🍁 | Maconha: `" +  require("currency-formatter").format(maconha, { code: "de-DE", precision: 0}) + "KG` \n" : ""}`,
         thumbnail: {
           url:

@@ -75,12 +75,12 @@ module.exports = {
             `${
               lote2
                 ? e.dois + " - Lote 2"
-                : e.cadeado + " - Lote 2 | R$ " + lote + " para desbloquear. Desbloqueie em `d!loja maconha`."
+                : e.cadeado + " - Lote 2 | R$ " + lote + " para desbloquear. Desbloqueie em `" + Prefixo + "loja maconha`."
             } \n` +
             `${
               lote3
                 ? e.tres + " - Lote 3"
-                : e.cadeado + " - Lote 3 | R$ " + lote + " para desbloquear. Desbloqueie em `d!loja maconha`."
+                : e.cadeado + " - Lote 3 | R$ " + lote + " para desbloquear. Desbloqueie em `" + Prefixo + "loja maconha`."
             }`
         }
       })
