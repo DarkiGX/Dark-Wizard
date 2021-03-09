@@ -67,7 +67,7 @@ client
   })
   .catch(error => {
     if (error.code !== 32233) {
-      console.error("Token Invalido");
+      console.error("Token Invalido.");
     }
   });
 
@@ -302,7 +302,8 @@ if (atfk < 15) return;
       if (levelupp <= mensagens) {
         levelupp = snap.val().Drop + 1;
         database.ref(`CARROFORTE/${message.guild.id}`).update({
-          Drop: levelupp
+          Drop: levy
+          elupp
         });
 
         const tempo = 15;

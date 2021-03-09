@@ -4,6 +4,7 @@ const emoji = require("../emoji.json");
 const Firebase = require("../firebase.json");
 const config = require("../config.json");
 const ant = require("../antiroubo.json")
+
 let Tempo = 60 * 60000;
 
 module.exports = {
@@ -128,9 +129,9 @@ module.exports = {
         emoji.negativo +
           " | " +
           message.author +
-          " você não pode roubar o meu criador otário, um mago protege seu mestre 🧙‍♂️"
+          " você não pode roubar o meu criador, um mago protege seu mestre 🧙‍♂️"
       );
-
+    const criador = client.users.get(require("../config.json").criador);
     var { body } = await snekfetch.get(
       Firebase.databaseURL + "/ANTIROUBO/" + user.id + ".json"
     );
@@ -142,12 +143,13 @@ module.exports = {
     if (user.id === ant.antiroubo)
       return message.channel.send({
         embed: {
-          title: message.author.tag,
+          color: 3447003,
+          title: "Sistema de Proteção Anti-Roubo",
           description:
             emoji.negativo +
             " | " +
             user +
-            " não pode ser roubado pois possui **Proteção Anti-Roubo**"
+            " não pode ser roubado pois possui **Proteção Anti-Roubo**, entre em contato com " + criador.tag + " para ter proteção anti roubo."
         }
       });
 

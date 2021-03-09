@@ -107,7 +107,7 @@ module.exports = {
     if (message.guild.id !== suportediana)
       return message.channel.send(message.author,{
         embed: {
-          color: 3684413,
+          color: 019433,
           timestamp: new Date(),
           title: "Esmeraldas",
           description:
@@ -129,7 +129,7 @@ module.exports = {
 
     message.channel.send({
       embed: {
-        color: 3684413,
+        color: 019433,
         timestamp: new Date(),
         title: "Esmeraldas",
         description: "Você coletou **" + Duckets + "** Esmeraldas diária! Você ganharia 2, mas ganhou em dobro por usar o comando no servidor de suporte.",

@@ -506,7 +506,7 @@ module.exports = {
                         Emprego +
                         "**, Digite: `" +
                         prefixo +
-                        "trabahar` para ganhar seu salário."
+                        "trabalhar` para ganhar seu salário."
                     }
                   });
                 });
